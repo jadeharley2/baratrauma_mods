@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Kanaris Costume" identifier="Kanaris_costume" tags="anthro,smallitem,clothing" aliases="KanarisCostume" category="Equipment"  
+    fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+     
+    <Fabricate suitablefabricators="fabricator" requiredtime="65">  
+      <RequiredItem identifier="aliencircuitry" /> 
+      <RequiredItem identifier="aliencircuitry" /> 
+      <RequiredItem identifier="alientrinket3" />
+      <RequiredItem identifier="alientrinket3" />
+      <RequiredItem identifier="alientrinket3" />
+      <RequiredItem identifier="alientrinket3" />
+      <RequiredItem identifier="alientrinket3" />
+      <RequiredItem identifier="alientrinket3" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="redwire" />
+      <RequiredItem identifier="redwire" />
+      <RequiredItem identifier="bluewire" />
+      <RequiredItem identifier="bluewire" />
+      <RequiredItem identifier="bluewire" /> 
+    </Fabricate>
+    <Deconstruct time="25">
+      <Item identifier="aliencircuitry" /> 
+      <Item identifier="aliencircuitry" /> 
+      <Item identifier="alientrinket3" />
+      <Item identifier="alientrinket3" />
+      <Item identifier="alientrinket3" /> 
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="titaniumaluminiumalloy" /> 
+      <Item identifier="redwire" />
+      <Item identifier="bluewire" />
+      <Item identifier="bluewire" /> 
+    </Deconstruct>
+    <InventoryIcon name="Kanaris Costume Icon" texture="icons.png" sourcerect="0,0,128,110" origin="0.5,0.5" />
+    <Sprite name="Kanaris Outfit" texture="MiscJobGear.png" sourcerect="190,146,190,73" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,Headset" msg="ItemMsgPickUpSelect">
+      <sprite name="Kanaris Torso" texture="Kanaris_Body.png" limb="Torso" hidelimb="true" inherittexturescale="true"                   inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9106" />
+
+      <sprite name="Kanaris Right Hand" texture="Kanaris_Body.png" limb="RightHand" hidelimb="true" inherittexturescale="true"          inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.91015" />
+      <sprite name="Kanaris Right Upper Arm" texture="Kanaris_Body.png" limb="RightForearm" hidelimb="true" inherittexturescale="true"  inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9101" />
+      <sprite name="Kanaris Right Lower Arm" texture="Kanaris_Body.png" limb="RightArm" hidelimb="true" inherittexturescale="true"      inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9102" />
+      
+      <sprite name="Kanaris Waist" texture="Kanaris_Body.png" limb="Waist" hidelimb="true" inherittexturescale="true"                   inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9121" />
+
+      <sprite name="Kanaris Left Hand" texture="Kanaris_Body.png" limb="LeftHand" hidelimb="true" inherittexturescale="true"            inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.916" />
+      <sprite name="Kanaris Left Upper Arm" texture="Kanaris_Body.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true"    inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.915" />
+      <sprite name="Kanaris Left Lower Arm" texture="Kanaris_Body.png" limb="LeftArm" hidelimb="true" inherittexturescale="true"        inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.914" />
+
+      <sprite name="Kanaris Right Thigh" texture="Kanaris_Body.png" limb="RightThigh" hidelimb="true" inherittexturescale="true"  inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.912" />
+      <sprite name="Kanaris Right Leg" texture="Kanaris_Body.png" limb="RightLeg" hidelimb="true" inherittexturescale="true"      inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9121" />
+      <sprite name="Kanaris Right Shoe" texture="Kanaris_Body.png" limb="RightFoot" hidelimb="true" inherittexturescale="true"    inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9122" />
+
+      <sprite name="Kanaris Left Thigh" texture="Kanaris_Body.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true"    inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.913" />
+      <sprite name="Kanaris Left Leg" texture="Kanaris_Body.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true"        inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9131" />
+      <sprite name="Kanaris Left Shoe" texture="Kanaris_Body.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true"      inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9132" />
+
+      <sprite name="Kanaris Tail 1" texture="Kanaris_Tail.png" limb="30" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9121"/>
+      <sprite name="Kanaris Tail 2" texture="Kanaris_Tail.png" limb="31" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9122"/>
+      <sprite name="Kanaris Tail 3" texture="Kanaris_Tail.png" limb="32" 
+      sourcerect="146,2,72,140"
+      hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" inheritlimbdepth="true" depth="0.9123"/> 
+      
+      
+      
+      <sprite name="Kanaris Tail B" texture="Kanaris_Tail.png" limb="33" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9121"/>
+ 
+      <sprite name="Kanaris Head" alphaclipotherwearables="true" sourcerect="0,0,256,256" Origin="0.55,0.5" Scale="0.25" texture="head.png" limb="Head" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" inheritlimbdepth="true" depth="0.9105" />
+        
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" OxygenAvailable="1000.0" UseHullOxygen="false" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.7" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.7" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.6" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.9" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="emp" damagemultiplier="2" />
+    </Wearable>
+    
+    <WifiComponent range="35000.0" LinkToChat="true" MinChatMessageInterval="0.0">
+      <!--RequiredItems items="mobilebattery" type="Contained" /-->
+    </WifiComponent> 
+  </Item> 
+  
+  <Item name="Kanaris Uniform" identifier="Kanaris_uniform" aliases="KanarisUniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+     
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">   
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="plastic" /> 
+      <RequiredItem identifier="rubber" />  
+    </Fabricate>
+    <Deconstruct time="5">
+      <Item identifier="organicfiber" />  
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon name="Kanaris Clothes Icon" texture="icons.png" sourcerect="128,0,128,110" origin="0.5,0.5" />
+    <Sprite name="Kanaris Outfit" texture="MiscJobGear.png" sourcerect="190,146,190,73" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Kanaris Torso" texture="Kanaris_AU.png" limb="Torso" hidelimb="true" inherittexturescale="true"                   inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.106" />
+
+      <sprite name="Kanaris Right Hand" texture="Kanaris_AU.png" limb="RightHand" hidelimb="false" inherittexturescale="true"          inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.1015" />
+      <sprite name="Kanaris Right Upper Arm" texture="Kanaris_AU.png" limb="RightForearm" hidelimb="true" inherittexturescale="true"  inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.101" />
+      <sprite name="Kanaris Right Lower Arm" texture="Kanaris_AU.png" limb="RightArm" hidelimb="false" inherittexturescale="true"      inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.102" />
+      
+      <sprite name="Kanaris Waist" texture="Kanaris_AU.png" limb="Waist" hidelimb="false" inherittexturescale="true"  
+        sourcerect="160,192,112,90" Origin="0.5,0.25"         
+        inheritorigin="false" inheritsourcerect="false" inheritlimbdepth="true" depth="0.0121" />
+
+        
+      <sprite name="Kanaris Coat" texture="Kanaris_AU.png" limb="Torso" hidelimb="false" inherittexturescale="true"  
+        sourcerect="160,292,112,200" Origin="0.51,-0.18"         
+        inheritorigin="false" inheritsourcerect="false" inheritlimbdepth="true" depth="0.0121" />
+
+      <sprite name="Kanaris Left Hand" texture="Kanaris_AU.png" limb="LeftHand" hidelimb="false" inherittexturescale="true"            inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.16" />
+      <sprite name="Kanaris Left Upper Arm" texture="Kanaris_AU.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true"    inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.15" />
+      <sprite name="Kanaris Left Lower Arm" texture="Kanaris_AU.png" limb="LeftArm" hidelimb="false" inherittexturescale="true"        inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.14" />
+
+      <sprite name="Kanaris Right Thigh" texture="Kanaris_AU.png" limb="RightThigh" hidelimb="false" inherittexturescale="true"  inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.12" />
+      <sprite name="Kanaris Right Leg" texture="Kanaris_AU.png" limb="RightLeg" hidelimb="false" inherittexturescale="true"      inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.121" />
+      <sprite name="Kanaris Right Shoe" texture="Kanaris_AU.png" limb="RightFoot" hidelimb="false" inherittexturescale="true"    inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.122" />
+
+      <sprite name="Kanaris Left Thigh" texture="Kanaris_AU.png" limb="LeftThigh" hidelimb="false" inherittexturescale="true"    inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.13" />
+      <sprite name="Kanaris Left Leg" texture="Kanaris_AU.png" limb="LeftLeg" hidelimb="false" inherittexturescale="true"        inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.131" />
+      <sprite name="Kanaris Left Shoe" texture="Kanaris_AU.png" limb="LeftFoot" hidelimb="false" inherittexturescale="true"      inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.132" />
+ 
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.9" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.85" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.8" />
+    </Wearable>
+    <ItemContainer capacity="4" maxstacksize="1" hideitems="true" />   
+     
+  </Item>
+</Items>

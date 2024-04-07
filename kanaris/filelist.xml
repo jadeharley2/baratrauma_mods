@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="kanaris" modversion="1.0.1" corepackage="False" steamworkshopid="3110058445" gameversion="1.1.19.3">
+  <Item file="%ModDir%/Items/kanaris/Kanaris_costume.xml" />
+</contentpackage>

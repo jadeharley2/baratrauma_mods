@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="fkverse_vst" modversion="1.0.1" corepackage="False"  gameversion="1.0.21.0"> 
+  <Character file="%ModDir%/Characters/VST/VST.xml" /> 
+  <Item file="%ModDir%/Items/VST_tfitem.xml" />
+</contentpackage>

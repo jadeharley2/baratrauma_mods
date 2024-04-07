@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="ARA Underwear" identifier="ARA_under" aliases="ARAUnderwear" category="Equipment" tags="diving,smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+     
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">   
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="plastic" /> 
+      <RequiredItem identifier="rubber" /> 
+    </Fabricate>
+    <Deconstruct time="5">
+      <Item identifier="organicfiber" />  
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon name="ARAU Clothes Icon" texture="icons_clothing.png" sourcerect="0,0,128,110" origin="0.5,0.5" />
+    <Sprite name="ARAU Outfit" texture="MiscJobGear.png" sourcerect="190,0,190,73" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="ARAU Torso" texture="under0.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.106" />
+ 
+      <sprite name="ARAU Waist" texture="under0.png" limb="Waist" hidelimb="false" inherittexturescale="true"  
+        sourcerect="160,192,112,128" Origin="0.5,0.25"         
+        inheritorigin="false" inheritsourcerect="false" inheritlimbdepth="true" depth="0.121" />
+ 
+      <StatusEffect type="OnWearing" target="Character" PressureProtection="10000.0" setvalue="true" disabledeltatime="true"/>
+    </Wearable> 
+     
+  </Item> 
+  <Item name="Ayn Underwear" identifier="Ayn_under" aliases="AynUnderwear" category="Equipment" tags="diving,smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+     
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">   
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="plastic" /> 
+      <RequiredItem identifier="rubber" /> 
+    </Fabricate>
+    <Deconstruct time="5">
+      <Item identifier="organicfiber" />  
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <InventoryIcon name="AynU Clothes Icon" texture="icons_clothing.png" sourcerect="128,0,128,110" origin="0.5,0.5" />
+    <Sprite name="AynU Outfit" texture="MiscJobGear.png" sourcerect="190,0,190,73" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="AynU Torso" texture="under1.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.106" />
+ 
+      <sprite name="AynU Waist" texture="under1.png" limb="Waist" hidelimb="false" inherittexturescale="true"  
+        sourcerect="160,192,112,128" Origin="0.5,0.25"         
+        inheritorigin="false" inheritsourcerect="false" inheritlimbdepth="true" depth="0.121" />
+ 
+      <StatusEffect type="OnWearing" target="Character" PressureProtection="10000.0" setvalue="true" disabledeltatime="true"/>
+    </Wearable> 
+     
+  </Item> 
+</Items>

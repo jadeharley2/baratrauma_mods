@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="VST Costume" identifier="VST_costume" tags="anthroid,smallitem,clothing" aliases="VSTCostume" category="Equipment"  
+    fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    
+    <Fabricate suitablefabricators="fabricator" requiredtime="65">  
+      <RequiredItem identifier="aliencircuitry" /> 
+      <RequiredItem identifier="aliencircuitry" /> 
+      <RequiredItem identifier="alientrinket2" />
+      <RequiredItem identifier="alientrinket2" />
+      <RequiredItem identifier="alientrinket2" />
+      <RequiredItem identifier="alientrinket2" />
+      <RequiredItem identifier="alientrinket2" />
+      <RequiredItem identifier="alientrinket2" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="redwire" />
+      <RequiredItem identifier="redwire" />
+      <RequiredItem identifier="redwire" />
+      <RequiredItem identifier="redwire" />
+      <RequiredItem identifier="redwire" /> 
+    </Fabricate>
+    <Deconstruct time="25">
+      <Item identifier="aliencircuitry" /> 
+      <Item identifier="aliencircuitry" /> 
+      <Item identifier="alientrinket2" />
+      <Item identifier="alientrinket2" />
+      <Item identifier="alientrinket2" /> 
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="titaniumaluminiumalloy" /> 
+      <Item identifier="redwire" />
+      <Item identifier="redwire" />
+      <Item identifier="redwire" /> 
+    </Deconstruct>
+    <InventoryIcon name="Tfitem Icon" texture="OutfitIcons.png" sourcerect="129,18,128,110" origin="0.5,0.5" />
+    <Sprite name="Tfitem" texture="MiscJobGear.png" sourcerect="190,0,190,73" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+
+    <Wearable slots="Any,Headset" msg="ItemMsgPickUpSelect"> 
+    </Wearable>
+     
+ 
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.15,0.1" anchor="BottomCenter" pivot="BottomCenter" relativeoffset="0,0.1" style="ItemUI" />
+      <Button text="Transform" connection="signal_out1"> 
+        <StatusEffect type="OnUse" duration="1" target="Limb,This" targetlimbs="Head" setvalue="true" stackable="false" hidelimb="true"> 
+          <ParticleEmitter particle="steamspray" copytargetangle="true" particlespersecond="30" velocitymin="500" velocitymax="1000" anglemin="0" anglemax="140" distancemin="50" distancemax="55" /> 
+      
+        </StatusEffect> 
+        <StatusEffect type="OnUse" target="Character"  >  
+          <spawncharacter speciesname="VST" transfercontrol="true" transferbuffs="true" transferafflictions="true" removepreviouscharacter="true"/>  
+           <!--  transferinventory="true"   -->
+        </StatusEffect> 
+      </Button>      
+    </CustomInterface> 
+  </Item> 
+</Items>
