@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="fkverse" modversion="1.0.16" corepackage="False" steamworkshopid="2940220939" gameversion="1.0.21.0">
+  <Item file="%ModDir%/Items/Jobgear/FKV/ARA_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/ZTA_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/TVK_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/SRK_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/Zofie_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/Vikna_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/Ayn_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/Lia_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/Nytro_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/Radoslav_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/Rane_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/Silk_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/Kesis_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKV/uniforms.xml" />
+  <Character file="%ModDir%/Characters/Human/Human.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKVC/Hyena_costume.xml" />
+  <Item file="%ModDir%/Items/Jobgear/FKVC/Aardwolf_costume.xml" />
+</contentpackage>

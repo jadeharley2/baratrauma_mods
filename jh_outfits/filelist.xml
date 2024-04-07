@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="jh_outfits" modversion="1.0.3" corepackage="False" gameversion="0.21.6.0">
+  <Item file="%ModDir%/Items/Jobgear/Krystal_Outfit/Krystal_Outfit.xml" /> 
+  <Item file="%ModDir%/Items/Weapons/krystal_weapons.xml" /> 
+</contentpackage>

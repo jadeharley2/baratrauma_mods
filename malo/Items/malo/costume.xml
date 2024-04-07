@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="MalO Costume" identifier="MalO_costume" tags="anthroid,smallitem,clothing" category="Equipment"  
+    fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+     
+    <Fabricate suitablefabricators="fabricator" requiredtime="65">  
+      <RequiredItem identifier="aliencircuitry" />
+      <RequiredItem identifier="aliencircuitry" /> 
+      <RequiredItem identifier="ballisticfiber" />  
+    </Fabricate>
+    <Deconstruct time="25">
+      <Item identifier="aliencircuitry" />
+      <Item identifier="aliencircuitry" />
+      <Item identifier="ballisticfiber" /> 
+    </Deconstruct>
+    <InventoryIcon name="MalO Icon" texture="icon.png" sourcerect="0,0,128,110" origin="0.5,0.5" />
+    <Sprite name="MalO Outfit" texture="item.png" sourcerect="0,0,190,73" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,Headset" msg="ItemMsgPickUpSelect">
+      <sprite name="MalO Torso" texture="body.png" limb="Torso" hidelimb="true" inherittexturescale="true"                   inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9106" />
+
+      <sprite name="MalO Right Hand" texture="body.png" limb="RightHand" hidelimb="true" inherittexturescale="true"          inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.91015" />
+      <sprite name="MalO Right Upper Arm" texture="body.png" limb="RightForearm" hidelimb="true" inherittexturescale="true"  inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9101" />
+      <sprite name="MalO Right Lower Arm" texture="body.png" limb="RightArm" hidelimb="true" inherittexturescale="true"      inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9102" />
+      
+      <sprite name="MalO Waist" texture="body.png" limb="Waist" hidelimb="true" inherittexturescale="true"                   inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9121" />
+
+      <sprite name="MalO Left Hand" texture="body.png" limb="LeftHand" hidelimb="true" inherittexturescale="true"            inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.916" />
+      <sprite name="MalO Left Upper Arm" texture="body.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true"    inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.915" />
+      <sprite name="MalO Left Lower Arm" texture="body.png" limb="LeftArm" hidelimb="true" inherittexturescale="true"        inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.914" />
+
+      <sprite name="MalO Right Thigh" texture="body.png" limb="RightThigh" hidelimb="true" inherittexturescale="true"  inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.912" />
+      <sprite name="MalO Right Leg" texture="body.png" limb="RightLeg" hidelimb="true" inherittexturescale="true"      inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9121" />
+      <sprite name="MalO Right Shoe" texture="body.png" limb="RightFoot" hidelimb="true" inherittexturescale="true"    inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9122" />
+
+      <sprite name="MalO Left Thigh" texture="body.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true"    inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.913" />
+      <sprite name="MalO Left Leg" texture="body.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true"        inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9131" />
+      <sprite name="MalO Left Shoe" texture="body.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true"      inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9132" />
+ 
+      <sprite name="MalO Tail 1" texture="tail.png" limb="30" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9121"/>
+      <sprite name="MalO Tail 2" texture="tail.png" limb="31" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9122"/>
+      <sprite name="MalO Tail 3" texture="tail.png" limb="32" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9123"/>
+      <sprite name="MalO Tail B" texture="tail.png" limb="33" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" inheritlimbdepth="true" depth="0.9121"/>
+       
+      <sprite name="MalO Head" sourcerect="0,0,256,256" Origin="0.55,0.5" Scale="0.25" texture="head.png" limb="Head" hidelimb="true" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" inheritlimbdepth="true" depth="0.9105"  />
+        
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.7" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.7" /> 
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.7" /> 
+    </Wearable>
+    
+    <WifiComponent range="35000.0" LinkToChat="true" MinChatMessageInterval="0.0"> 
+    </WifiComponent> 
+  </Item> 
+</Items>

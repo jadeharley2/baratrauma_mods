@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Character specifiertags="true" Speciesname="Human" Group="human" Humanoid="True" Hasinfo="True" Usehuskappendage="True" Needsair="True" genders="true" femaleratio="0.4" Races="false" Canspeak="True" Caninteract="True" Blooddecal="blood" Noise="150" Visibility="150" Speciestranslationoverride="" Displayname="" Husk="False" Needswater="False" Usebosshealthbar="False" Bleedparticleair="blooddrop" Bleedparticlewater="waterblood" Bleedparticlemultiplier="1" Eatingspeed="10" Pathfinderpriority="1" Hideinsonar="False" Sonardisruption="0" Distantsonarrange="0" Disabledistance="25000" skincolors=" (#ded7cc, 100); (#d2a36f, 100); (#c77d52, 100); (#ac4934, 100);        (#d8ba85, 100); (#cd975a, 100); (#a15837, 100); (#6a3b37, 100);        (#bba981, 100); (#8b7e6c, 100); (#594349, 100); (#473637, 100);        (#7b8478, 100); (#494e55, 100); (#3a3a3c, 100); (#343030, 100);        (#FFFFFF, 100); (#EAEAEA, 100); (#C1C1C1, 100); (#A0A0A0, 100);     (#777777, 100); (#565656, 100); (#333333, 100); (#191919, 100);      (#AD3527, 100); (#FF1D00, 100); (#FF4300, 100); (#FF5D00, 100);     (#FF7200, 100); (#FF8800, 100); (#FFA500, 100); (#FFBB00, 100);     (#FFD000, 100); (#FFD800, 100); (#FFE900, 100); (#FFFA00, 100);     (#EEFF00, 100); (#DDFF00, 100); (#CCFF00, 100); (#BBFF00, 100);     (#88FF00, 100); (#4CFF00, 100); (#00FF08, 100); (#00FF33, 100);     (#00FF6E, 100); (#00FFC3, 100); (#00D8FF, 100); (#00A1FF, 100);     (#007BFF, 100); (#0055FF, 100); (#002AFF, 100); (#0400FF, 100);     (#3B00FF, 100); (#6A00FF, 100); (#AE00FF, 100); (#E100FF, 100);     (#FF00D4, 100); (#FF009D, 100); (#FF007F, 100); (#FF0026, 100);      (#FF9797, 100); (#FFA297, 100); (#FFB297, 100); (#FFBC97, 100);     (#FFC497, 100); (#FFCE97, 100); (#FFDA97, 100); (#FFE297, 100);     (#FFEB97, 100); (#FFEE97, 100); (#FFF597, 100); (#FFFC97, 100);     (#F7FF97, 100); (#F0FF97, 100); (#E9FF97, 100); (#E2FF97, 100);     (#CEFF97, 100); (#B5FF97, 100); (#97FF9A, 100); (#97FFAB, 100);     (#97FFC3, 100); (#97FFE5, 100); (#97EEFF, 100); (#97D8FF, 100);     (#97C9FF, 100); (#97B9FF, 100); (#97A7FF, 100); (#9897FF, 100);     (#AE97FF, 100); (#C197FF, 100); (#DD97FF, 100); (#F197FF, 100);     (#FF97EC, 100); (#FF97D6, 100); (#FF97CA, 100); (#FF97A6, 100);      (#7F0000, 100); (#7F0E00, 100); (#7F2E00, 100); (#7F2E00, 100);      (#7F3800, 100); (#7F4300, 100); (#7F5200, 100); (#7F5D00, 100);     (#7F6700, 100); (#7F6B00, 100); (#7F7400, 100); (#7F7C00, 100);      (#767F00, 100); (#6E7F00, 100); (#657F00, 100); (#5D7F00, 100);     (#437F00, 100); (#257F00, 100); (#007F03, 100); (#007F19, 100);      (#007F36, 100); (#007F61, 100); (#006B7F, 100); (#00507F, 100);      (#003D7F, 100); (#002A7F, 100); (#00147F, 100); (#01007F, 100);     (#1D007F, 100); (#34007F, 100); (#56007F, 100); (#70007F, 100);      (#7F0069, 100); (#7F004E, 100); (#7F003F, 100); (#7F0012, 100);  (#7F5633, 100); (#8B6646, 100); (#A78B73, 100); (#E2D5C9, 100); (#6C4D36, 100); (#816753, 100); (#A89588, 100); (#CBC0B8, 100);  (#6E5958, 100); (#837170, 100); (#A09291, 100); (#C8C0BF, 100) " haircolors=" (#ded7cc, 100); (#d2a36f, 100); (#c77d52, 100); (#ac4934, 100);        (#d8ba85, 100); (#cd975a, 100); (#a15837, 100); (#6a3b37, 100);        (#bba981, 100); (#8b7e6c, 100); (#594349, 100); (#473637, 100);        (#7b8478, 100); (#494e55, 100); (#3a3a3c, 100); (#343030, 100);        (#FFFFFF, 100); (#EAEAEA, 100); (#C1C1C1, 100); (#A0A0A0, 100);     (#777777, 100); (#565656, 100); (#333333, 100); (#191919, 100);      (#AD3527, 100); (#FF1D00, 100); (#FF4300, 100); (#FF5D00, 100);     (#FF7200, 100); (#FF8800, 100); (#FFA500, 100); (#FFBB00, 100);     (#FFD000, 100); (#FFD800, 100); (#FFE900, 100); (#FFFA00, 100);     (#EEFF00, 100); (#DDFF00, 100); (#CCFF00, 100); (#BBFF00, 100);     (#88FF00, 100); (#4CFF00, 100); (#00FF08, 100); (#00FF33, 100);     (#00FF6E, 100); (#00FFC3, 100); (#00D8FF, 100); (#00A1FF, 100);     (#007BFF, 100); (#0055FF, 100); (#002AFF, 100); (#0400FF, 100);     (#3B00FF, 100); (#6A00FF, 100); (#AE00FF, 100); (#E100FF, 100);     (#FF00D4, 100); (#FF009D, 100); (#FF007F, 100); (#FF0026, 100);      (#FF9797, 100); (#FFA297, 100); (#FFB297, 100); (#FFBC97, 100);     (#FFC497, 100); (#FFCE97, 100); (#FFDA97, 100); (#FFE297, 100);     (#FFEB97, 100); (#FFEE97, 100); (#FFF597, 100); (#FFFC97, 100);     (#F7FF97, 100); (#F0FF97, 100); (#E9FF97, 100); (#E2FF97, 100);     (#CEFF97, 100); (#B5FF97, 100); (#97FF9A, 100); (#97FFAB, 100);     (#97FFC3, 100); (#97FFE5, 100); (#97EEFF, 100); (#97D8FF, 100);     (#97C9FF, 100); (#97B9FF, 100); (#97A7FF, 100); (#9897FF, 100);     (#AE97FF, 100); (#C197FF, 100); (#DD97FF, 100); (#F197FF, 100);     (#FF97EC, 100); (#FF97D6, 100); (#FF97CA, 100); (#FF97A6, 100);      (#7F0000, 100); (#7F0E00, 100); (#7F2E00, 100); (#7F2E00, 100);      (#7F3800, 100); (#7F4300, 100); (#7F5200, 100); (#7F5D00, 100);     (#7F6700, 100); (#7F6B00, 100); (#7F7400, 100); (#7F7C00, 100);      (#767F00, 100); (#6E7F00, 100); (#657F00, 100); (#5D7F00, 100);     (#437F00, 100); (#257F00, 100); (#007F03, 100); (#007F19, 100);      (#007F36, 100); (#007F61, 100); (#006B7F, 100); (#00507F, 100);      (#003D7F, 100); (#002A7F, 100); (#00147F, 100); (#01007F, 100);     (#1D007F, 100); (#34007F, 100); (#56007F, 100); (#70007F, 100);      (#7F0069, 100); (#7F004E, 100); (#7F003F, 100); (#7F0012, 100);  (#7F5633, 100); (#8B6646, 100); (#A78B73, 100); (#E2D5C9, 100); (#6C4D36, 100); (#816753, 100); (#A89588, 100); (#CBC0B8, 100);  (#6E5958, 100); (#837170, 100); (#A09291, 100); (#C8C0BF, 100) " facialhaircolors=" (#ded7cc, 100); (#d2a36f, 100); (#c77d52, 100); (#ac4934, 100);        (#d8ba85, 100); (#cd975a, 100); (#a15837, 100); (#6a3b37, 100);        (#bba981, 100); (#8b7e6c, 100); (#594349, 100); (#473637, 100);        (#7b8478, 100); (#494e55, 100); (#3a3a3c, 100); (#343030, 100);        (#FFFFFF, 100); (#EAEAEA, 100); (#C1C1C1, 100); (#A0A0A0, 100);     (#777777, 100); (#565656, 100); (#333333, 100); (#191919, 100);      (#AD3527, 100); (#FF1D00, 100); (#FF4300, 100); (#FF5D00, 100);     (#FF7200, 100); (#FF8800, 100); (#FFA500, 100); (#FFBB00, 100);     (#FFD000, 100); (#FFD800, 100); (#FFE900, 100); (#FFFA00, 100);     (#EEFF00, 100); (#DDFF00, 100); (#CCFF00, 100); (#BBFF00, 100);     (#88FF00, 100); (#4CFF00, 100); (#00FF08, 100); (#00FF33, 100);     (#00FF6E, 100); (#00FFC3, 100); (#00D8FF, 100); (#00A1FF, 100);     (#007BFF, 100); (#0055FF, 100); (#002AFF, 100); (#0400FF, 100);     (#3B00FF, 100); (#6A00FF, 100); (#AE00FF, 100); (#E100FF, 100);     (#FF00D4, 100); (#FF009D, 100); (#FF007F, 100); (#FF0026, 100);      (#FF9797, 100); (#FFA297, 100); (#FFB297, 100); (#FFBC97, 100);     (#FFC497, 100); (#FFCE97, 100); (#FFDA97, 100); (#FFE297, 100);     (#FFEB97, 100); (#FFEE97, 100); (#FFF597, 100); (#FFFC97, 100);     (#F7FF97, 100); (#F0FF97, 100); (#E9FF97, 100); (#E2FF97, 100);     (#CEFF97, 100); (#B5FF97, 100); (#97FF9A, 100); (#97FFAB, 100);     (#97FFC3, 100); (#97FFE5, 100); (#97EEFF, 100); (#97D8FF, 100);     (#97C9FF, 100); (#97B9FF, 100); (#97A7FF, 100); (#9897FF, 100);     (#AE97FF, 100); (#C197FF, 100); (#DD97FF, 100); (#F197FF, 100);     (#FF97EC, 100); (#FF97D6, 100); (#FF97CA, 100); (#FF97A6, 100);      (#7F0000, 100); (#7F0E00, 100); (#7F2E00, 100); (#7F2E00, 100);      (#7F3800, 100); (#7F4300, 100); (#7F5200, 100); (#7F5D00, 100);     (#7F6700, 100); (#7F6B00, 100); (#7F7400, 100); (#7F7C00, 100);      (#767F00, 100); (#6E7F00, 100); (#657F00, 100); (#5D7F00, 100);     (#437F00, 100); (#257F00, 100); (#007F03, 100); (#007F19, 100);      (#007F36, 100); (#007F61, 100); (#006B7F, 100); (#00507F, 100);      (#003D7F, 100); (#002A7F, 100); (#00147F, 100); (#01007F, 100);     (#1D007F, 100); (#34007F, 100); (#56007F, 100); (#70007F, 100);      (#7F0069, 100); (#7F004E, 100); (#7F003F, 100); (#7F0012, 100); (#7F5633, 100); (#8B6646, 100); (#A78B73, 100); (#E2D5C9, 100); (#6C4D36, 100); (#816753, 100); (#A89588, 100); (#CBC0B8, 100);  (#6E5958, 100); (#837170, 100); (#A09291, 100); (#C8C0BF, 100)">
+    <name firstname="Content/Characters/Human/firstnames_[GENDER].txt" lastname="Content/Characters/Human/lastnames.txt" />
+    <ragdolls folder="%ModDir%/Characters/Human/Ragdolls" />
+    <animations folder="%ModDir:avvos_StarfoxMod%/Characters/Human/Animations" />
+    <damageemitter drawontop="True" Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="0.25" ScaleMax="0.5" VelocityMin="50" VelocityMax="300" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+    <bloodemitter Particle="blood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+    <bloodemitter Particle="waterblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+    <gibemitter Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="200" VelocityMax="700" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="20" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+    <gibemitter Particle="heavygib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="50" VelocityMax="500" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+    <sound File="Content/Characters/Human/female_damage1.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/female_damage2.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/female_damage3.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/female_damage4.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/female_damage5.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/female_damage6.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/female_damage7.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/female_damage8.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/female_damage9.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/female_damage10.ogg" State="Damage" Range="500" Volume="1" Tags="Female" />
+    <sound File="Content/Characters/Human/male_damage1.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage2.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage3.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage4.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage5.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage6.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage7.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage8.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage9.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage10.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <sound File="Content/Characters/Human/male_damage11.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
+    <health Vitality="100" DoesBleed="True" CrushDepth="6000" UseHealthWindow="True" BleedingReduction="0" BurnReduction="0.075" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="False" PoisonImmunity="False" ApplyAfflictionColors="True">
+      <MedUISilhouette texture="Content/UI/Health/MedUI_Silhouette.png" columns="8" rows="2" sourcerect="0,0,1008,748" />
+      <MedUIExtra texture="Content/UI/Health/MedUIExtra.png" columns="4" rows="4" sourcerect="0,0,1024,1024" />
+      <Limb name="Head">
+        <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="1,0,126,374" highlightarea="41,0,45,54" />
+        <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="1,515,126,374" />
+        <VitalityMultiplier type="damage" multiplier="2.0" />
+      </Limb>
+      <Limb name="Torso">
+        <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="631,0,126,374" highlightarea="29,56,70,134" />
+        <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="631,515,126,374" />
+        <VitalityMultiplier type="bleeding" multiplier="2.0" />
+      </Limb>
+      <Limb name="LeftArm">
+        <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="379,0,126,374" highlightarea="1,69,27,140" />
+        <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="379,515,126,374" />
+        <VitalityMultiplier type="damage" multiplier="0.5" />
+      </Limb>
+      <Limb name="RightArm">
+        <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="127,0,126,374" highlightarea="100,69,27,140" />
+        <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="127,515,126,374" />
+        <VitalityMultiplier type="damage" multiplier="0.5" />
+      </Limb>
+      <Limb name="LeftLeg">
+        <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="505,0,126,374" highlightarea="3,180,57,194" />
+        <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="505,515,126,374" />
+        <VitalityMultiplier type="damage" multiplier="0.5" />
+      </Limb>
+      <Limb name="RightLeg">
+        <Sprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="253,0,126,374" highlightarea="68,180,57,194" />
+        <Highlightsprite texture="Content/UI/Health/MedUIAtlas.png" sourcerect="253,515,126,374" />
+        <VitalityMultiplier type="damage" multiplier="0.5" />
+      </Limb>
+    </health>
+    <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="True" Commonness="1" />
+    <Heads>
+      <Head id="1" sheetindex="0,0" gender="male" tags="asmhead1" />
+      <Head id="2" sheetindex="1,0" gender="male" tags="asmhead2" />
+      <Head id="3" sheetindex="2,0" gender="male" tags="asmhead3" />
+      <Head id="4" sheetindex="3,0" gender="male" tags="asmhead4" />
+      <Head id="5" sheetindex="0,1" gender="male" tags="asmhead5" />
+      <Head id="6" sheetindex="1,1" gender="male" tags="asmhead6" />
+      <Head id="7" sheetindex="2,1" gender="male" tags="asmhead7" />
+      <Head id="8" sheetindex="3,1" gender="male" tags="asmhead8" />
+      <Head id="9" sheetindex="0,2" gender="male" tags="asmhead9" />
+      <Head id="10" sheetindex="1,2" gender="male" tags="asmhead10" />
+      <Head id="11" sheetindex="2,2" gender="male" tags="asmhead11" />
+      <Head id="12" sheetindex="3,2" gender="male" tags="asmhead12" />
+      <Head id="13" sheetindex="0,3" gender="male" tags="asmhead13" />
+      <Head id="14" sheetindex="1,3" gender="male" tags="asmhead14" />
+      <Head id="15" sheetindex="2,3" gender="male" tags="asmhead15" />
+      <Head id="16" sheetindex="3,3" gender="male" tags="asmhead16" />
+      <Head id="17" sheetindex="0,4" gender="male" tags="asmhead25" />
+      <Head id="18" sheetindex="1,4" gender="male" tags="asmhead26" />
+      <Head id="19" sheetindex="2,4" gender="male" tags="asmhead27" />
+      <Head id="20" sheetindex="3,4" gender="male" tags="asmhead28" />
+      <Head id="21" sheetindex="0,5" gender="male" tags="asmhead29" />
+      <Head id="22" sheetindex="1,5" gender="male" tags="asmhead30" />
+      <Head id="23" sheetindex="2,5" gender="male" tags="asmhead31" />
+      <Head id="24" sheetindex="3,5" gender="male" tags="asmhead32" />
+      <Head id="25" sheetindex="0,6" gender="male" tags="asmhead33" />
+      <Head id="26" sheetindex="1,6" gender="male" tags="asmhead34" />
+      <Head id="27" sheetindex="2,6" gender="male" tags="asmhead35" />
+      <Head id="28" sheetindex="3,6" gender="male" tags="asmhead36" />
+      <Head id="29" sheetindex="0,7" gender="male" tags="asmhead37" />
+      <Head id="30" sheetindex="1,7" gender="male" tags="asmhead38" />
+      <Head id="31" sheetindex="2,7" gender="male" tags="asmhead39" />
+      <Head id="32" sheetindex="3,7" gender="male" tags="asmhead40" />
+      <Head id="33" sheetindex="4,0" gender="male" tags="asmhead17" />
+      <Head id="34" sheetindex="5,0" gender="male" tags="asmhead18" />
+      <Head id="35" sheetindex="6,0" gender="male" tags="asmhead19" />
+      <Head id="36" sheetindex="7,0" gender="male" tags="asmhead20" />
+      <Head id="37" sheetindex="4,1" gender="male" tags="asmhead21" />
+      <Head id="38" sheetindex="5,1" gender="male" tags="asmhead22" />
+      <Head id="39" sheetindex="6,1" gender="male" tags="asmhead23" />
+      <Head id="40" sheetindex="7,1" gender="male" tags="asmhead24" />
+      <Head id="41" sheetindex="4,4" gender="male" tags="asmhead41" />
+      <Head id="42" sheetindex="5,4" gender="male" tags="asmhead42" />
+      <Head id="43" sheetindex="6,4" gender="male" tags="asmhead43" />
+      <Head id="44" sheetindex="7,4" gender="male" tags="asmhead44" />
+      <Head id="45" sheetindex="4,5" gender="male" tags="asmhead45" />
+      <Head id="46" sheetindex="5,5" gender="male" tags="asmhead46" />
+      <Head id="47" sheetindex="6,5" gender="male" tags="asmhead47" />
+      <Head id="48" sheetindex="7,5" gender="male" tags="asmhead48" />
+      <Head id="1" sheetindex="0,0" gender="female" tags="asmhead1" />
+      <Head id="2" sheetindex="1,0" gender="female" tags="asmhead2" />
+      <Head id="3" sheetindex="2,0" gender="female" tags="asmhead3" />
+      <Head id="4" sheetindex="3,0" gender="female" tags="asmhead4" />
+      <Head id="5" sheetindex="0,1" gender="female" tags="asmhead5" />
+      <Head id="6" sheetindex="1,1" gender="female" tags="asmhead6" />
+      <Head id="7" sheetindex="2,1" gender="female" tags="asmhead7" />
+      <Head id="8" sheetindex="3,1" gender="female" tags="asmhead8" />
+      <Head id="9" sheetindex="0,2" gender="female" tags="asmhead9" />
+      <Head id="10" sheetindex="1,2" gender="female" tags="asmhead10" />
+      <Head id="11" sheetindex="2,2" gender="female" tags="asmhead11" />
+      <Head id="12" sheetindex="3,2" gender="female" tags="asmhead12" />
+      <Head id="13" sheetindex="0,4" gender="female" tags="asmhead17" />
+      <Head id="14" sheetindex="1,4" gender="female" tags="asmhead18" />
+      <Head id="15" sheetindex="2,4" gender="female" tags="asmhead19" />
+      <Head id="16" sheetindex="3,4" gender="female" tags="asmhead20" />
+      <Head id="17" sheetindex="0,5" gender="female" tags="asmhead21" />
+      <Head id="18" sheetindex="1,5" gender="female" tags="asmhead22" />
+      <Head id="19" sheetindex="2,5" gender="female" tags="asmhead23" />
+      <Head id="20" sheetindex="3,5" gender="female" tags="asmhead24" />
+      <Head id="21" sheetindex="0,6" gender="female" tags="asmhead25" />
+      <Head id="22" sheetindex="1,6" gender="female" tags="asmhead26" />
+      <Head id="23" sheetindex="2,6" gender="female" tags="asmhead27" />
+      <Head id="24" sheetindex="3,6" gender="female" tags="asmhead28" />
+      <Head id="25" sheetindex="0,3" gender="female" tags="asmhead13" />
+      <Head id="26" sheetindex="1,3" gender="female" tags="asmhead14" />
+      <Head id="27" sheetindex="2,3" gender="female" tags="asmhead15" />
+      <Head id="28" sheetindex="3,3" gender="female" tags="asmhead16" />
+      <Head id="29" sheetindex="0,7" gender="female" tags="asmhead29" />
+      <Head id="30" sheetindex="1,7" gender="female" tags="asmhead30" />
+      <Head id="31" sheetindex="2,7" gender="female" tags="asmhead31" />
+      <Head id="32" sheetindex="3,7" gender="female" tags="asmhead32" /> 
+    </Heads>
+    <Vars>
+      <Var var="ASMHEAD" tags="asmhead1,asmhead2,asmhead3,asmhead4,asmhead5,asmhead6,asmhead7,asmhead8,asmhead9,asmhead10,asmhead11,asmhead12,asmhead13,asmhead14,asmhead15,asmhead16,asmhead17,asmhead18,asmhead19,asmhead20,asmhead21,asmhead22,asmhead23,asmhead24,asmhead25,asmhead26,asmhead27,asmhead28,asmhead29,asmhead30,asmhead31,asmhead32,asmhead33,asmhead34,asmhead35,asmhead36,asmhead37,asmhead38,asmhead39,asmhead40,asmhead41,asmhead42,asmhead43,asmhead44,asmhead45,asmhead46,asmhead47,asmhead48" />
+      <Var var="GENDER" tags="female,male" />
+    </Vars>
+    <HeadAttachments>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 1" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_1.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 2" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_2.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 3" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_3.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 4" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_4.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 5" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_5.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 6" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_6.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 7" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_7.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 8" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_8.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 9" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_9.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 10" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_10.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 11" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_11.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 12" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_12.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 13" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_13.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 14" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_14.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Hair 15" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_hair_15.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Empty 1" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Empty 2" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Empty 3" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Empty 4" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="male">
+        <sprite name="Empty 5" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 1" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_1.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 2" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_2.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 3" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_3.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 4" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_4.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 5" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_5.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 6" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_6.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 7" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_7.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 8" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_8.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 9" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_9.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 10" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_10.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 11" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_11.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 12" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_12.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 13" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_13.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Hair 14" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_hair_14.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Empty 1" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Empty 2" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Empty 3" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Empty 4" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Hair" tags="female">
+        <sprite name="Empty 5" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 1" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_1.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 2" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_2.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 3" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_3.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 4" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_4.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 5" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_5.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 6" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_6.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 7" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_7.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 8" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_8.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 9" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_9.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Beard 10" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_male_beards_10.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Empty 6" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="male">
+        <sprite name="Empty 7" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Empty128_128.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="female">
+        <sprite name="Beard 1" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_beards_1.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="female">
+        <sprite name="Beard 2" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_beards_2.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="female">
+        <sprite name="Beard 3" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_beards_3.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="female">
+        <sprite name="Beard 4" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_beards_4.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="female">
+        <sprite name="Beard 5" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_beards_5.png" />
+      </Wearable>
+      <Wearable type="Beard" tags="female">
+        <sprite name="Beard 6" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Hair/Human_female_beards_6.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="male">
+        <sprite name="FaceAttachment 1" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_1.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="male">
+        <sprite name="FaceAttachment 2" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_2.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="male">
+        <sprite name="FaceAttachment 3" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_3.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="male">
+        <sprite name="FaceAttachment 4" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_4.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.02" gender="male">
+        <sprite name="FaceAttachment 5" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_5.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.02" gender="male">
+        <sprite name="FaceAttachment 6" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_6.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.02" gender="male">
+        <sprite name="FaceAttachment 7" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_7.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.02" gender="male">
+        <sprite name="FaceAttachment 8" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_8.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.05" gender="male">
+        <sprite name="FaceAttachment 9" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_9.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="male">
+        <sprite name="FaceAttachment 10" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_10.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.008" gender="male">
+        <sprite name="FaceAttachment 11" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_11.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.03" gender="male">
+        <sprite name="FaceAttachment 12" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_12.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.03" gender="male">
+        <sprite name="FaceAttachment 13" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_13.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="male">
+        <sprite name="FaceAttachment 14" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_14.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="male">
+        <sprite name="FaceAttachment 15" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_male_head_accessories_15.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.04" gender="female">
+        <sprite name="FaceAttachment 1" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_1.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.04" gender="female">
+        <sprite name="FaceAttachment 2" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_2.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.04" gender="female">
+        <sprite name="FaceAttachment 3" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_3.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="female">
+        <sprite name="FaceAttachment 4" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_4.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.04" gender="female">
+        <sprite name="FaceAttachment 5" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_5.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.04" gender="female">
+        <sprite name="FaceAttachment 6" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_6.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.04" gender="female">
+        <sprite name="FaceAttachment 7" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_7.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.04" gender="female">
+        <sprite name="FaceAttachment 8" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_8.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.05" gender="female">
+        <sprite name="FaceAttachment 9" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_9.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="female">
+        <sprite name="FaceAttachment 10" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_10.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="female">
+        <sprite name="FaceAttachment 11" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_11.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.03" gender="female">
+        <sprite name="FaceAttachment 12" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_12.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.03" gender="female">
+        <sprite name="FaceAttachment 13" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_13.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="female">
+        <sprite name="FaceAttachment 14" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_14.png" />
+      </Wearable>
+      <Wearable type="FaceAttachment" commonness="0.01" gender="female">
+        <sprite name="FaceAttachment 15" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/accessories/Human_female_head_accessories_15.png" />
+      </Wearable>
+      <Wearable type="Husk" gender="male">
+        <sprite name="Male Husk" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Human_male_husk.png" hidewearablesoftype="Beard,FaceAttachment" />
+      </Wearable>
+      <Wearable type="Husk" gender="female">
+        <sprite name="Female Husk" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Human_female_husk.png" hidewearablesoftype="Beard,FaceAttachment" />
+      </Wearable>
+      <Wearable type="Herpes">
+        <sprite name="Herpes" texture="%ModDir:avvos_StarfoxMod%/Characters/Human/Human_karma.png" sheetindex="0,0" />
+      </Wearable>
+    </HeadAttachments>
+  </Character>
+</Override>

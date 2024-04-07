@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Krystal Outfit" identifier="Krystal_Outfit" aliases="KrystalOutfit" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0" />
+    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0" />
+    <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="400" fabricationlimitmin="0" fabricationlimitmax="1" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">  
+      <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="bluepaint" />
+    </Fabricate>
+    <Deconstruct time="5">
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <InventoryIcon name="Krystal Clothes Icon" texture="%ModDir:jh_outfits%/Items/Jobgear/Krystal_Outfit/OutfitIcons.png" sourcerect="129,18,128,110" origin="0.5,0.5" />
+    <Sprite name="Krystal Outfit" texture="%ModDir:jh_outfits%/Items/Jobgear/Krystal_Outfit/MiscJobGear.png" sourcerect="190,0,190,73" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Krystal Torso" texture="Krystal_Outfit.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Right Hand" texture="Krystal_Outfit.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Left Hand" texture="Krystal_Outfit.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Right Lower Arm" texture="Krystal_Outfit.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Left Lower Arm" texture="Krystal_Outfit.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Right Upper Arm" texture="Krystal_Outfit.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Left Upper Arm" texture="Krystal_Outfit.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Waist" texture="Krystal_Outfit.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Right Thigh" texture="Krystal_Outfit.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Left Thigh" texture="Krystal_Outfit.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Right Leg" texture="Krystal_Outfit.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Left Leg" texture="Krystal_Outfit.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Left Shoe" texture="Krystal_Outfit.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Krystal Right Shoe" texture="Krystal_Outfit.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds" damagemultiplier="0.9" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations" damagemultiplier="0.85" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.8" />
+    </Wearable>
+    <ItemContainer capacity="4" maxstacksize="1" hideitems="true" />   
+  </Item>
+</Items>
